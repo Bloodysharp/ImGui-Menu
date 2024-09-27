@@ -500,8 +500,8 @@ namespace render_ui
     {
         ImVec2 pos = ImGui::GetWindowPos();
 
-        //if (page == 0)
-       // {
+        if (page == 0)
+        {
             ImGui::GetWindowDrawList()->AddCircleFilled(ImVec2(pos.x + 105, pos.y + 40), 20, ImColor(26, 30, 29), 100);
 
             ImGui::GetWindowDrawList()->AddText(font::lexend_regular, 16, ImVec2(pos.x + 135, pos.y + 25), ImColor(255, 255, 255), "Visual");
@@ -525,7 +525,7 @@ namespace render_ui
                 }
             }
             ImGui::EndGroup();
-       // }
+        }
     }
 
     void Byte()
