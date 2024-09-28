@@ -625,8 +625,7 @@ int main(int, char**)
 
     //Byte
     D3DX11_IMAGE_LOAD_INFO info; ID3DX11ThreadPump* pump{ nullptr };
-    if (texture::logo == nullptr)
-        D3DX11CreateShaderResourceViewFromMemory(g_pd3dDevice, logo_type, sizeof(logo_type), &info, pump, &texture::logo, 0);
+ 
     if (texture::foto == nullptr)
         D3DX11CreateShaderResourceViewFromMemory(g_pd3dDevice, foto_type, sizeof(foto_type), &info, pump, &texture::foto, 0);
 
