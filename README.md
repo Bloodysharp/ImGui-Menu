@@ -1,9 +1,5 @@
 Include yourself SDK and FreeType sources
 
-ImGui menu use D3D11 to create GUI application with ImGui or for games that does not use DirectX and games which ImGui block the render.
-
-You can easily use it as a DLL for external in an internal cheat or build GUI application with ImGui. Everything is setup you just need to choose between DLL or EXE. ImGui Standalone create his own window, if you use it as a DLL you main process don't need to use DirectX.
-
 This project works in x86 and DLL/EXE.
 
 🚀 Getting Started
